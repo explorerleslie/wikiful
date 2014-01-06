@@ -8,6 +8,9 @@ Wikiful::Application.routes.draw do
   
   # Generate the default routes for Articles
   resources :articles
+  
+  # Generate the default routes for Categories
+  resources :categories
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
