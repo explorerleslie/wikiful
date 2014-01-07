@@ -1,1 +1,9 @@
 <h1><%= @category.name %></h1>
+
+<h2>testing creating an instance variable in the show action for articles in category</h2>
+<% @articles_in_category.each do |article| %>
+<p><%= link_to article.title, article %></p><% end %>
+
+<h2>testing getting to articles from the @category object in your view template</h2>
+<% @category.articles.each do |article| %>
+<p><%= article.title %></p><% end %>
