@@ -46,3 +46,8 @@ end
 
 # Use faker for test data
 gem 'faker'
+
+# Use Bootstrap for the front-end
+gem 'twitter-bootstrap-rails'
+gem 'less-rails'
+gem 'therubyracer'
