@@ -1,5 +1,7 @@
 Wikiful::Application.routes.draw do
-  get "sessions/new"
+ 
+  resources :sessions
+  
   resources :users
 
   get "welcome/index"
