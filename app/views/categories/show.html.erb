@@ -2,6 +2,6 @@
 
 <% @articles_in_category.each do |article| %>
 <h3><%= link_to article.title, article %></h3>
-<p>Publication Date: <%= article.created_at.strftime('%b %d, %Y') %>
+<div class="published"><p>Publication Date: <%= article.created_at.strftime('%b %d, %Y') %></div>
 <p><%= truncate(article.content, length: 200) %></p>
 <% end %>

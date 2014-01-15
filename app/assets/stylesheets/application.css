@@ -15,3 +15,11 @@
 .session-controls {
   float: right;
 }
+
+.published {
+  font-style: italic;
+}
+
+.categories {
+  font-weight: bold;
+}
