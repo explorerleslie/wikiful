@@ -12,6 +12,10 @@
  *= require_tree .
  */
 
+.span9 {
+  margin-bottom: 50px;
+}
+
 .session-controls {
   float: right;
 }
